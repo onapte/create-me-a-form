@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body {
+    font-family: Mulish;
+}
+
+#toolbar {
+    font-family: Mulish;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+#form-space {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border: solid cadetblue 2px;
+    padding: 10px;
+}
+
+/* Added Field */
+.added-field {
+    font-family: Mulish;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.added-textarea {
+    font-family: Mulish;
+    font-size: 20px;
+    margin-left: 10px;
+    resize: none;
+    width: 60%;
+}
+
+form  textarea {
+    vertical-align: middle;
+}
+
+.space-element {
+    margin-top: 20px;
+}
+
+/* Settings */
+.settings {
+    position: absolute;
+    top: 30px;
+    right: 5%;
+}
+
+.settings-div {
+    background-color: rgb(166, 207, 233);
+    z-index: 9999;
+    position: absolute;
+    width: 65%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    display: none;
+    font-size: 23px;
+    padding: 10px;
+}
